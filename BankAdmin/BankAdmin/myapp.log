@@ -1,0 +1,137 @@
+2024-12-16T10:48:26.361+05:30  INFO 1208 --- [BankAdmin] [main] c.e.BankAdmin.BankAdminApplication       : Starting BankAdminApplication using Java 21.0.4 with PID 1208 (D:\BankAdmin\BankAdmin\target\classes started by Chethan kumar in D:\BankAdmin\BankAdmin)
+2024-12-16T10:48:26.399+05:30  INFO 1208 --- [BankAdmin] [main] c.e.BankAdmin.BankAdminApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-16T10:48:29.281+05:30  INFO 1208 --- [BankAdmin] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-16T10:48:29.659+05:30  INFO 1208 --- [BankAdmin] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 357 ms. Found 1 JPA repository interface.
+2024-12-16T10:48:30.491+05:30  INFO 1208 --- [BankAdmin] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f5095dc3-3142-3400-bb9b-9fd1de3b3f0e
+2024-12-16T10:48:30.974+05:30  WARN 1208 --- [BankAdmin] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-12-16T10:48:30.982+05:30  WARN 1208 --- [BankAdmin] [main] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-12-16T10:48:31.808+05:30  INFO 1208 --- [BankAdmin] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-12-16T10:48:31.842+05:30  INFO 1208 --- [BankAdmin] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-16T10:48:31.844+05:30  INFO 1208 --- [BankAdmin] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-16T10:48:32.108+05:30  INFO 1208 --- [BankAdmin] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-16T10:48:32.110+05:30  INFO 1208 --- [BankAdmin] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5489 ms
+2024-12-16T10:48:32.722+05:30  INFO 1208 --- [BankAdmin] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-16T10:48:32.994+05:30  INFO 1208 --- [BankAdmin] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-16T10:48:33.145+05:30  INFO 1208 --- [BankAdmin] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-16T10:48:34.046+05:30  INFO 1208 --- [BankAdmin] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-16T10:48:34.125+05:30  INFO 1208 --- [BankAdmin] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-16T10:48:35.048+05:30  INFO 1208 --- [BankAdmin] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@78fb72cb
+2024-12-16T10:48:35.053+05:30  INFO 1208 --- [BankAdmin] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-16T10:48:35.162+05:30  WARN 1208 --- [BankAdmin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-16T10:48:35.164+05:30  WARN 1208 --- [BankAdmin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-16T10:48:36.754+05:30  INFO 1208 --- [BankAdmin] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-16T10:48:36.857+05:30  INFO 1208 --- [BankAdmin] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-16T10:48:38.081+05:30  WARN 1208 --- [BankAdmin] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-16T10:48:39.807+05:30  INFO 1208 --- [BankAdmin] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-16T10:48:39.963+05:30  WARN 1208 --- [BankAdmin] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-16T10:48:40.036+05:30  INFO 1208 --- [BankAdmin] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-16T10:48:40.121+05:30  INFO 1208 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-16T10:48:40.130+05:30  INFO 1208 --- [BankAdmin] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T10:48:40.154+05:30  INFO 1208 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-16T10:48:40.155+05:30  INFO 1208 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-16T10:48:40.155+05:30  INFO 1208 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-16T10:48:40.155+05:30  INFO 1208 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-16T10:48:40.156+05:30  INFO 1208 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-16T10:48:40.156+05:30  INFO 1208 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-16T10:48:40.156+05:30  INFO 1208 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-16T10:48:41.216+05:30  INFO 1208 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-16T10:48:41.221+05:30  INFO 1208 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-16T10:48:41.227+05:30  INFO 1208 --- [BankAdmin] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-16T10:48:41.231+05:30  INFO 1208 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1734326321229 with initial instances count: 1
+2024-12-16T10:48:41.242+05:30  INFO 1208 --- [BankAdmin] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application BANKADMIN with eureka with status UP
+2024-12-16T10:48:41.243+05:30  INFO 1208 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1734326321243, current=UP, previous=STARTING]
+2024-12-16T10:48:41.248+05:30  INFO 1208 --- [BankAdmin] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKADMIN/DESKTOP-9C90OPC:BankAdmin:8081: registering service...
+2024-12-16T10:48:41.341+05:30  INFO 1208 --- [BankAdmin] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-12-16T10:48:41.344+05:30  INFO 1208 --- [BankAdmin] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2024-12-16T10:48:41.381+05:30  INFO 1208 --- [BankAdmin] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKADMIN/DESKTOP-9C90OPC:BankAdmin:8081 - registration status: 204
+2024-12-16T10:48:41.485+05:30  INFO 1208 --- [BankAdmin] [main] c.e.BankAdmin.BankAdminApplication       : Started BankAdminApplication in 16.453 seconds (process running for 17.9)
+2024-12-16T10:49:00.118+05:30  INFO 1208 --- [BankAdmin] [SpringApplicationShutdownHook] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application BANKADMIN with eureka with status DOWN
+2024-12-16T10:49:00.119+05:30  INFO 1208 --- [BankAdmin] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1734326340119, current=DOWN, previous=UP]
+2024-12-16T10:49:00.120+05:30  INFO 1208 --- [BankAdmin] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKADMIN/DESKTOP-9C90OPC:BankAdmin:8081: registering service...
+2024-12-16T10:49:00.141+05:30  INFO 1208 --- [BankAdmin] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKADMIN/DESKTOP-9C90OPC:BankAdmin:8081 - registration status: 204
+2024-12-16T10:49:00.150+05:30  INFO 1208 --- [BankAdmin] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-16T10:49:00.157+05:30  INFO 1208 --- [BankAdmin] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-16T10:49:00.188+05:30  INFO 1208 --- [BankAdmin] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-16T10:49:00.190+05:30  INFO 1208 --- [BankAdmin] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2024-12-16T10:49:03.197+05:30  INFO 1208 --- [BankAdmin] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2024-12-16T10:49:03.219+05:30  INFO 1208 --- [BankAdmin] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKADMIN/DESKTOP-9C90OPC:BankAdmin:8081 - deregister  status: 200
+2024-12-16T10:49:03.220+05:30  INFO 1208 --- [BankAdmin] [SpringApplicationShutdownHook] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
+2024-12-16T10:49:08.828+05:30  INFO 9472 --- [BankAdmin] [main] c.e.BankAdmin.BankAdminApplication       : Starting BankAdminApplication using Java 21.0.4 with PID 9472 (D:\BankAdmin\BankAdmin\target\classes started by Chethan kumar in D:\BankAdmin\BankAdmin)
+2024-12-16T10:49:08.842+05:30  INFO 9472 --- [BankAdmin] [main] c.e.BankAdmin.BankAdminApplication       : No active profile set, falling back to 1 default profile: "default"
+2024-12-16T10:49:14.414+05:30  INFO 9472 --- [BankAdmin] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-16T10:49:14.951+05:30  INFO 9472 --- [BankAdmin] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 513 ms. Found 1 JPA repository interface.
+2024-12-16T10:49:15.942+05:30  INFO 9472 --- [BankAdmin] [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=f5095dc3-3142-3400-bb9b-9fd1de3b3f0e
+2024-12-16T10:49:16.412+05:30  WARN 9472 --- [BankAdmin] [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig' of type [org.springframework.cloud.client.loadbalancer.LoadBalancerAutoConfiguration$DeferringLoadBalancerInterceptorConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [lbRestClientPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2024-12-16T10:49:16.418+05:30  WARN 9472 --- [BankAdmin] [main] trationDelegate$BeanPostProcessorChecker : Bean 'deferringLoadBalancerInterceptor' of type [org.springframework.cloud.client.loadbalancer.DeferringLoadBalancerInterceptor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected into a currently created BeanPostProcessor [lbRestClientPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies.
+2024-12-16T10:49:17.385+05:30  INFO 9472 --- [BankAdmin] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2024-12-16T10:49:17.424+05:30  INFO 9472 --- [BankAdmin] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-16T10:49:17.425+05:30  INFO 9472 --- [BankAdmin] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-12-16T10:49:17.708+05:30  INFO 9472 --- [BankAdmin] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-16T10:49:17.709+05:30  INFO 9472 --- [BankAdmin] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 8492 ms
+2024-12-16T10:49:18.299+05:30  INFO 9472 --- [BankAdmin] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-16T10:49:18.549+05:30  INFO 9472 --- [BankAdmin] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-12-16T10:49:18.665+05:30  INFO 9472 --- [BankAdmin] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-16T10:49:19.728+05:30  INFO 9472 --- [BankAdmin] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-16T10:49:19.824+05:30  INFO 9472 --- [BankAdmin] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-16T10:49:21.300+05:30  INFO 9472 --- [BankAdmin] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2419fe6f
+2024-12-16T10:49:21.308+05:30  INFO 9472 --- [BankAdmin] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-16T10:49:21.459+05:30  WARN 9472 --- [BankAdmin] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-16T10:49:21.465+05:30  WARN 9472 --- [BankAdmin] [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-12-16T10:49:23.318+05:30  INFO 9472 --- [BankAdmin] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-16T10:49:23.411+05:30  INFO 9472 --- [BankAdmin] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-16T10:49:24.676+05:30  WARN 9472 --- [BankAdmin] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-16T10:49:26.465+05:30  INFO 9472 --- [BankAdmin] [main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2024-12-16T10:49:26.661+05:30  WARN 9472 --- [BankAdmin] [main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-16T10:49:26.750+05:30  INFO 9472 --- [BankAdmin] [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2024-12-16T10:49:26.846+05:30  INFO 9472 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2024-12-16T10:49:26.862+05:30  INFO 9472 --- [BankAdmin] [main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T10:49:26.915+05:30  INFO 9472 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2024-12-16T10:49:26.918+05:30  INFO 9472 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2024-12-16T10:49:26.919+05:30  INFO 9472 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2024-12-16T10:49:26.920+05:30  INFO 9472 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2024-12-16T10:49:26.921+05:30  INFO 9472 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2024-12-16T10:49:26.921+05:30  INFO 9472 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2024-12-16T10:49:26.922+05:30  INFO 9472 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2024-12-16T10:49:28.436+05:30  INFO 9472 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2024-12-16T10:49:28.474+05:30  INFO 9472 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2024-12-16T10:49:28.495+05:30  INFO 9472 --- [BankAdmin] [main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2024-12-16T10:49:28.507+05:30  INFO 9472 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1734326368503 with initial instances count: 2
+2024-12-16T10:49:28.524+05:30  INFO 9472 --- [BankAdmin] [main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application BANKADMIN with eureka with status UP
+2024-12-16T10:49:28.524+05:30  INFO 9472 --- [BankAdmin] [main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1734326368524, current=UP, previous=STARTING]
+2024-12-16T10:49:28.542+05:30  INFO 9472 --- [BankAdmin] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKADMIN/DESKTOP-9C90OPC:BankAdmin:8081: registering service...
+2024-12-16T10:49:28.688+05:30  INFO 9472 --- [BankAdmin] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2024-12-16T10:49:28.695+05:30  INFO 9472 --- [BankAdmin] [main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8081
+2024-12-16T10:49:28.800+05:30  INFO 9472 --- [BankAdmin] [main] c.e.BankAdmin.BankAdminApplication       : Started BankAdminApplication in 22.271 seconds (process running for 23.659)
+2024-12-16T10:49:28.805+05:30  INFO 9472 --- [BankAdmin] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_BANKADMIN/DESKTOP-9C90OPC:BankAdmin:8081 - registration status: 204
+2024-12-16T10:54:26.937+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T10:59:26.951+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T11:04:10.961+05:30  WARN 9472 --- [BankAdmin] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m19s214ms686µs500ns).
+2024-12-16T11:06:38.830+05:30  INFO 9472 --- [BankAdmin] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16T11:06:38.831+05:30  INFO 9472 --- [BankAdmin] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-16T11:06:38.836+05:30  INFO 9472 --- [BankAdmin] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-12-16T11:06:40.839+05:30  INFO 9472 --- [BankAdmin] [http-nio-8081-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 905 ms
+2024-12-16T11:07:16.153+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T11:12:16.160+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T11:17:16.169+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T11:22:16.174+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T12:42:07.953+05:30  WARN 9472 --- [BankAdmin] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h18m56s638ms850µs200ns).
+2024-12-16T12:45:42.814+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T12:50:42.831+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T12:55:42.843+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T12:58:34.893+05:30  WARN 9472 --- [BankAdmin] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m56s685ms843µs600ns).
+2024-12-16T13:02:09.534+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T13:07:09.540+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T13:12:09.555+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T13:17:09.561+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:07:47.084+05:30  WARN 9472 --- [BankAdmin] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47m41s47ms772µs300ns).
+2024-12-16T14:09:21.414+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:14:21.425+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:19:21.441+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:24:21.445+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:29:21.453+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:34:21.465+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:39:21.474+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:44:22.785+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:49:22.789+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:54:22.802+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2024-12-16T14:59:22.804+05:30  INFO 9472 --- [BankAdmin] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
